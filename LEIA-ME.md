@@ -2,6 +2,25 @@
 
 *Achados que você não estava procurando.* Todo dia: uma novidade médica real, com fonte, e um fato curioso, cada um com uma pergunta.
 
+- **Endereço do app:** https://luisaprescedino-maker.github.io/Incidentaloma/
+- **Repositório no GitHub:** `luisaprescedino-maker/Incidentaloma`
+
+## Instalar no celular
+
+### iPhone (precisa ser no Safari)
+1. Abra o endereço do app no **Safari**.
+2. Toque no botão **Compartilhar** (o quadrado com uma seta para cima). Em alguns iPhones, ele fica atrás do botão **⋯**.
+3. Role a lista e toque em **Adicionar à Tela de Início**.
+4. Se aparecer **Abrir como App Web**, deixe ligado. Toque em **Adicionar**.
+
+### Android (Chrome)
+1. Abra o endereço do app no **Chrome**.
+2. Toque nos **três pontinhos** no canto superior direito.
+3. Toque em **Instalar app** (ou **Adicionar à tela inicial** → **Instalar**).
+4. Também dá para instalar pela aba **Arquivo** do próprio app, que mostra um botão "Instalar na tela inicial" quando o celular permite.
+
+Depois de instalado, abra o app **uma vez com internet**. A partir daí, ele funciona mesmo sem conexão e busca as novidades sozinho sempre que houver internet.
+
 ## O que tem nesta pasta
 
 | Arquivo | Para que serve |
