@@ -6,7 +6,7 @@ Você é uma sessão do Claude encarregada de **atualizar sozinha** o app Incide
 
 O Incidentaloma é um aplicativo web instalável (PWA) para celular, feito para uma estudante de medicina do 3º ano. Todo dia ela abre o app e, em poucos minutos, lê uma **novidade médica real com fonte** e um **fato curioso**, e responde a uma pergunta sobre cada um.
 
-O site é publicado pelo **GitHub Pages** a partir do ramo `main`. Qualquer `git push` para `main` republica o site sozinho em 1 ou 2 minutos.
+O site é publicado pelo **GitHub Pages** a partir do ramo `main`. Você envia a atualização para um ramo `claude/...`, e uma automação do GitHub (`.github/workflows/publicar-atualizacao.yml`) confere, junta ao `main` e republica o site sozinha (veja o passo 9).
 
 Seu trabalho toda semana: **pesquisar o que saiu nos últimos 7 dias, adicionar de 5 a 7 novidades novas e verdadeiras, conferir, registrar e publicar.**
 
@@ -23,6 +23,7 @@ Seu trabalho toda semana: **pesquisar o que saiu nos últimos 7 dias, adicionar 
 | `ferramentas/verificar.js` | Verificador dos dados (rode com Node.js). Contém as listas de áreas e tipos aceitos. | Só para acrescentar uma área nova, se for mesmo necessário |
 | `ferramentas/verificar.html`, `ferramentas/servidor.ps1`, `TESTAR NO COMPUTADOR.bat` | Ferramentas de teste no Windows da dona do app. | Não |
 | `LEIA-ME.md` | Guia para a dona do app. | Não |
+| `.github/workflows/publicar-atualizacao.yml` | Automação que publica sozinha o que você enviar para um ramo `claude/...`. | Não |
 
 O app lê `dados/novidades.json` e calcula o resto sozinho:
 - ordena as novidades por `dataPublicacao`, da mais recente para a mais antiga;
@@ -149,7 +150,7 @@ Em `dados/novidades.json`:
    - **AVISO** de link: alguns sites oficiais bloqueiam robôs. Confira o link com WebFetch. Se abrir, pode seguir.
    - **AVISO** de tamanho do resumo: ajuste o texto para ficar perto de 200 palavras.
 2. Se o Node.js não existir no ambiente, confira pelo menos se o JSON é válido (`python3 -c "import json; json.load(open('dados/novidades.json', encoding='utf-8')); print('JSON ok')"`) e revise as regras do passo 5 manualmente.
-3. Confirme com `git diff --stat` que só mudaram `dados/novidades.json` e `HISTORICO-DE-ATUALIZACOES.md` (e `ferramentas/verificar.js`, se acrescentou uma área). Não mexa no código do app.
+3. Confirme com `git status` e `git diff --stat` que só mudaram `dados/novidades.json` e `HISTORICO-DE-ATUALIZACOES.md` (e `ferramentas/verificar.js`, se acrescentou uma área). Não mexa no código do app.
 
 ### 8. Registrar no histórico
 
@@ -169,19 +170,22 @@ Observações: o que foi descartado e por quê, links que deram aviso, ou "nenhu
 
 ### 9. Salvar e enviar para o GitHub
 
+Envie as mudanças para um ramo novo chamado `claude/atualizacao-AAAA-MM-DD` (com a data de HOJE). **Não** envie direto para `main` e **não** abra pull request:
+
 ```
+git checkout -b claude/atualizacao-AAAA-MM-DD
 git add dados/novidades.json HISTORICO-DE-ATUALIZACOES.md
 git commit -m "Atualização semanal AAAA-MM-DD: N novidades"
-git push origin main
+git push origin claude/atualizacao-AAAA-MM-DD
 ```
 
-- Se o `push` for recusado porque o GitHub tem mudanças novas: `git pull --rebase origin main` e depois `git push origin main` de novo.
-- Se o `push` para `main` for recusado **por falta de permissão**, envie para um ramo `claude/atualizacao-AAAA-MM-DD`, abra um pull request para `main` e escreva no fim da sua resposta que a dona do app precisa aprovar o pull request (ou liberar o envio direto para `main` nas configurações da tarefa agendada).
-- O GitHub Pages republica o site sozinho em 1 ou 2 minutos depois do push para `main`.
+- Se o ramo já existir no GitHub (por exemplo, numa segunda tentativa no mesmo dia), use `claude/atualizacao-AAAA-MM-DD-2`.
+- A automação `.github/workflows/publicar-atualizacao.yml` cuida do resto sozinha: roda o verificador de novo, junta o ramo ao `main`, apaga o ramo e republica o site no GitHub Pages em poucos minutos. A dona do app não precisa aprovar nada.
+- Se o verificador da automação achar erro, nada é publicado. Por isso o passo 7 é tão importante: só envie depois que o verificador passar sem erros.
 
 ### 10. Terminar
 
-Termine com um resumo curto: quantas novidades entraram (título e área de cada uma), se o verificador passou e se o push deu certo.
+Termine com um resumo curto: quantas novidades entraram (título e área de cada uma), se o verificador passou e se o push do ramo deu certo.
 
 ## O que NÃO fazer
 

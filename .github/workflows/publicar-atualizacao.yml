@@ -1,0 +1,46 @@
+# Publica sozinha a atualização semanal feita pelo Claude.
+#
+# A tarefa semanal envia as novidades para um ramo "claude/...".
+# Esta automação confere os dados, junta o ramo ao main, apaga o ramo
+# e pede ao GitHub Pages para republicar o site. Se o verificador achar
+# erro, nada é publicado (o ramo fica no GitHub para ser corrigido).
+
+name: Publicar atualização do Claude
+
+on:
+  push:
+    branches: ["claude/**"]
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publicar-atualizacao
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Conferir os dados
+        run: node ferramentas/verificar.js
+
+      - name: Juntar ao main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          node ferramentas/verificar.js
+          git push origin main
+          git push origin --delete "${GITHUB_REF_NAME}"
+
+      - name: Republicar o site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds"
