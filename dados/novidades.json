@@ -2,6 +2,131 @@
   "ultimaAtualizacao": "2026-10-24",
   "novidades": [
     {
+      "id": "2026-08-acc-esc-quinta-definicao-universal-infarto",
+      "titulo": "Quinta Definição Universal de Infarto troca os tipos 1 a 5 por três categorias",
+      "tipo": "Diretriz",
+      "area": "Cardiologia",
+      "dataPublicacao": "2026-08-28",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "American College of Cardiology",
+        "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/08/25/13/59/global-cv-societies-release-updated-universal-definition-of-mi-esc-2026"
+      },
+      "resumo": "A Definição Universal de Infarto do Miocárdio é o documento que padroniza, no mundo todo, quando um quadro pode ser chamado de infarto. A quinta versão foi publicada em agosto de 2026 por uma força-tarefa conjunta da Sociedade Europeia de Cardiologia (ESC), do Colégio Americano de Cardiologia (ACC), da Associação Americana do Coração (AHA) e da Federação Mundial do Coração (WHF), e substitui a versão de 2018.\n\nA principal mudança é o fim da classificação numérica em tipos 1 a 5. O infarto passa a ser classificado pelo mecanismo, em três categorias clínicas: infarto primário, infarto secundário e infarto relacionado a procedimentos. Os critérios de lesão miocárdica aguda e crônica também foram refinados, e o documento propõe caminhos de diagnóstico mais rápidos com a troponina de alta sensibilidade.\n\nOutra novidade é o uso de limites de troponina específicos para cada sexo, para evitar que o infarto seja subdiagnosticado em mulheres. A definição também traz critérios objetivos para o infarto silencioso, redefine a sigla MINOCA como “lesão miocárdica com artérias coronárias não obstrutivas”, tratada como um diagnóstico provisório, e incentiva exames de imagem para descobrir a causa do infarto.",
+      "naPratica": "Livros e resumos que falam em “infarto tipo 1” e “tipo 2” vão ser atualizados aos poucos, então vale conhecer as duas nomenclaturas por um tempo. O conceito central continua: troponina elevada indica lesão miocárdica, e infarto exige também evidência de isquemia. O uso de limites de troponina por sexo depende de cada laboratório adotar a nova recomendação.",
+      "pergunta": {
+        "enunciado": "Como a 5ª Definição Universal passa a classificar o infarto do miocárdio?",
+        "opcoes": [
+          "Em tipos 1 a 5, como na versão anterior",
+          "Apenas em infarto com e sem supradesnivelamento do segmento ST",
+          "Em infarto primário, secundário e relacionado a procedimentos",
+          "Pelo valor da troponina: leve, moderado ou grave"
+        ],
+        "correta": 3,
+        "explicacao": "A classificação numérica em tipos 1 a 5 foi substituída por três categorias baseadas no mecanismo: primário, secundário e relacionado a procedimentos."
+      }
+    },
+    {
+      "id": "2026-08-nejm-poet2-endocardite-antibiotico",
+      "titulo": "Endocardite: parar o antibiótico conforme a resposta encurta o tratamento, mas aumenta as recaídas",
+      "tipo": "Artigo",
+      "area": "Infectologia",
+      "dataPublicacao": "2026-08-28",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "The New England Journal of Medicine (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42663314/"
+      },
+      "resumo": "Na endocardite infecciosa do lado esquerdo do coração, a recomendação clássica é tratar com antibiótico por até 6 semanas. Essa duração, porém, vem em grande parte da opinião de especialistas, e não de ensaios clínicos.\n\nO estudo POET II, publicado no The New England Journal of Medicine, incluiu 508 adultos em condição estável com endocardite causada por algumas das bactérias mais comuns na doença, entre elas os estreptococos. Todos já tinham recebido de 2 a 4 semanas de antibiótico e estavam clinicamente estáveis. Então foram sorteados: metade parou o antibiótico (terapia guiada pela resposta) e metade completou o tratamento padrão, de 4 a 6 semanas no total.\n\nEm 6 meses, o grupo da terapia guiada passou mais dias vivo e sem antibiótico (mediana de 183 contra 169 dias). Eventos graves, como morte, cirurgia cardíaca não planejada ou embolia com sintomas, não foram mais frequentes com o tratamento encurtado (8,2% contra 10,7%). Mas a recaída da bacteremia ou da endocardite foi maior nesse grupo: 5,1% contra 1,6%.",
+      "naPratica": "Em pacientes estáveis e bem selecionados, encurtar o antibiótico não aumentou mortes nem complicações graves, mas trouxe mais recaídas. Por isso, ainda não é uma mudança automática de conduta: a decisão depende do paciente e da bactéria, e esse equilíbrio deve ser discutido nas próximas revisões das diretrizes.",
+      "pergunta": {
+        "enunciado": "No estudo POET II, qual foi a desvantagem da terapia antibiótica guiada pela resposta?",
+        "opcoes": [
+          "Mais mortes em 6 meses",
+          "Mais cirurgias cardíacas não planejadas",
+          "Mais dias de uso de antibiótico",
+          "Mais recaídas de bacteremia ou endocardite"
+        ],
+        "correta": 4,
+        "explicacao": "A terapia guiada reduziu os dias de antibiótico e não aumentou eventos graves, mas as recaídas foram mais frequentes (5,1% contra 1,6%)."
+      }
+    },
+    {
+      "id": "2026-09-nejm-preggnut-dieta-gestante-alergia",
+      "titulo": "Comer mais ovo e amendoim na gravidez não previne alergia alimentar no bebê",
+      "tipo": "Artigo",
+      "area": "Pediatria",
+      "dataPublicacao": "2026-09-17",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "The New England Journal of Medicine (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42748429/"
+      },
+      "resumo": "A alergia alimentar mediada por imunoglobulina E (IgE) pode começar muito cedo, talvez antes mesmo de o bebê comer alimentos sólidos. Por isso, surgiu a hipótese de que expor o bebê aos alérgenos ainda no útero e pelo leite materno poderia ensinar o sistema imune a tolerá-los. Faltavam, porém, ensaios clínicos que testassem essa ideia.\n\nO estudo PrEggNut, publicado no The New England Journal of Medicine, sorteou 2.137 gestantes cujos bebês tinham risco aumentado de alergia, por terem pelo menos dois parentes biológicos com doença alérgica. Metade seguiu uma dieta rica em ovo e amendoim, com pelo menos 6 ovos e 60 amendoins por semana. A outra metade seguiu uma dieta com no máximo 3 ovos e 30 amendoins por semana. A dieta ia de antes de 23 semanas de gestação até os 4 meses de amamentação.\n\nCom 1 ano de idade, a alergia a ovo ou amendoim mediada por IgE apareceu em 7,8% dos bebês do grupo da dieta rica e em 8,4% do grupo da dieta padrão, uma diferença sem significância estatística. A segurança foi semelhante nos dois grupos.",
+      "naPratica": "Não há motivo para orientar gestantes e lactantes a comer mais ovo e amendoim para prevenir alergia no bebê. O estudo também não mostrou dano, então esses alimentos não precisam ser evitados na gravidez. A prevenção de alergia alimentar continua centrada na introdução desses alimentos na dieta do próprio bebê, conforme as orientações pediátricas.",
+      "pergunta": {
+        "enunciado": "Qual foi o resultado principal do estudo PrEggNut?",
+        "opcoes": [
+          "Não houve diferença significativa na alergia a ovo ou amendoim com 1 ano de idade",
+          "A dieta rica em ovo e amendoim reduziu a alergia pela metade",
+          "A dieta rica em ovo e amendoim aumentou a alergia nos bebês",
+          "O estudo foi interrompido por reações alérgicas nas gestantes"
+        ],
+        "correta": 1,
+        "explicacao": "A alergia apareceu em 7,8% contra 8,4% dos bebês, uma diferença sem significância estatística. A dieta materna rica nesses alimentos não protegeu o bebê."
+      }
+    },
+    {
+      "id": "2026-09-lancet-orbex-om85-sibilancia",
+      "titulo": "Lisado bacteriano OM-85 não previne episódios de chiado em crianças pequenas com risco de asma",
+      "tipo": "Artigo",
+      "area": "Pneumologia",
+      "dataPublicacao": "2026-09-07",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "The Lancet (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42705251/"
+      },
+      "resumo": "Os episódios de chiado (sibilância) durante infecções respiratórias são muito comuns na idade pré-escolar. Em crianças com histórico pessoal ou familiar de alergia, eles podem ser o começo da asma. O OM-85 é um lisado bacteriano: um preparado oral feito com fragmentos de bactérias, que teria a função de “treinar” o sistema imune. Ele é vendido em vários países para prevenir infecções respiratórias.\n\nO estudo ORBEX, publicado na The Lancet, sorteou 822 crianças de 6 a 18 meses com risco aumentado de asma (por dermatite atópica, pais com asma ou um irmão mais velho com asma) para receber OM-85 ou placebo, 10 dias por mês, durante 2 anos. Depois, elas foram acompanhadas por mais 3 anos sem o remédio.\n\nNesse período de acompanhamento, 21% das crianças do grupo OM-85 e 18% do grupo placebo tiveram pelo menos um episódio de chiado com infecção respiratória baixa, sem diferença significativa no tempo até o primeiro episódio. Os efeitos adversos mais comuns, como febre, tosse e resfriado, foram parecidos nos dois grupos.",
+      "naPratica": "Para crianças pequenas com risco de asma, o OM-85 não mostrou benefício na prevenção dos episódios de chiado, e os próprios autores concluem que os lisados bacterianos não são eficazes para esse objetivo. É um bom exemplo de remédio bastante usado que, testado com rigor, não confirmou o efeito esperado.",
+      "pergunta": {
+        "enunciado": "O que o estudo ORBEX mostrou sobre o OM-85 em crianças pequenas com risco de asma?",
+        "opcoes": [
+          "Reduziu pela metade os episódios de chiado",
+          "Não reduziu os episódios de chiado com infecção respiratória baixa",
+          "Causou muito mais febre e infecções que o placebo",
+          "Preveniu a dermatite atópica"
+        ],
+        "correta": 2,
+        "explicacao": "Os episódios de chiado foram semelhantes com OM-85 e placebo (21% contra 18%), sem diferença significativa. O remédio não funcionou para prevenção primária."
+      }
+    },
+    {
+      "id": "2026-10-jama-chips-plaquetas-refrigeradas",
+      "titulo": "Plaquetas guardadas na geladeira funcionam tão bem quanto as tradicionais na cirurgia cardíaca",
+      "tipo": "Artigo",
+      "area": "Cirurgia",
+      "dataPublicacao": "2026-10-13",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "JAMA (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42606886/"
+      },
+      "resumo": "As plaquetas para transfusão costumam ser guardadas em temperatura ambiente, de 20 a 24 °C, e só duram de 5 a 7 dias, o que causa desperdício e falta nos bancos de sangue. Guardá-las refrigeradas, de 1 a 6 °C, poderia aumentar esse prazo, mas era preciso saber se elas continuam funcionando para conter sangramentos.\n\nO estudo CHIPS, publicado no JAMA (Journal of the American Medical Association), incluiu adultos e crianças que sangravam durante cirurgia cardíaca com circulação extracorpórea, em 27 hospitais dos Estados Unidos e da Austrália. Eles foram sorteados para receber plaquetas refrigeradas, guardadas por até 21 dias, ou plaquetas em temperatura ambiente, guardadas por até 7 dias. Ao todo, 989 pacientes entraram na análise principal.\n\nAs plaquetas refrigeradas não foram inferiores às tradicionais no controle do sangramento, em todos os tempos de armazenamento testados, e o volume drenado pelo dreno de tórax em 24 horas foi parecido. Não houve diferença em trombose, reações transfusionais ou mortalidade, mas as reoperações por sangramento foram mais frequentes no grupo das plaquetas refrigeradas.",
+      "naPratica": "Se for adotada, a refrigeração pode aumentar o estoque de plaquetas e levá-las a hospitais menores, onde hoje elas vencem antes de serem usadas. O aumento de reoperações ainda precisa ser mais bem estudado, e a mudança depende das regras dos serviços de hemoterapia de cada país.",
+      "pergunta": {
+        "enunciado": "Qual é a principal vantagem esperada de guardar plaquetas refrigeradas?",
+        "opcoes": [
+          "Elas dispensam a tipagem sanguínea",
+          "Elas não causam nenhuma reação transfusional",
+          "Elas podem ser guardadas por mais tempo, reduzindo desperdício e falta",
+          "Elas eliminam a necessidade de reoperação por sangramento"
+        ],
+        "correta": 3,
+        "explicacao": "As plaquetas em temperatura ambiente duram só 5 a 7 dias. Refrigeradas, foram eficazes mesmo com até 21 dias de armazenamento, o que pode reduzir desperdício e falta."
+      }
+    },
+    {
       "id": "2026-10-lancet-remibrutinibe-esclerose-multipla",
       "titulo": "Remibrutinibe, um inibidor oral da BTK, reduz surtos de esclerose múltipla em comparação com a teriflunomida",
       "tipo": "Artigo",

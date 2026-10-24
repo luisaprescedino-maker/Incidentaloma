@@ -2,6 +2,22 @@
 
 Cada atualização semanal das novidades fica registrada aqui, da mais recente para a mais antiga: a data, o período pesquisado e o que foi adicionado, com as fontes.
 
+## 2026-10-24: 5 novidades recentes (complemento, a pedido da dona do app)
+
+Período: atualizações recentes que ainda não estavam no app (últimos 3 meses), seguindo a nova regra do passo 2 do CLAUDE.md.
+
+| Novidade | Tipo | Área | Publicação | Fonte |
+|---|---|---|---|---|
+| Plaquetas refrigeradas na cirurgia cardíaca (estudo CHIPS) | Artigo | Cirurgia | 2026-10-13 | [JAMA (via PubMed)](https://pubmed.ncbi.nlm.nih.gov/42606886/) |
+| Dieta da gestante rica em ovo e amendoim e alergia no bebê (estudo PrEggNut) | Artigo | Pediatria | 2026-09-17 | [NEJM (via PubMed)](https://pubmed.ncbi.nlm.nih.gov/42748429/) |
+| Lisado bacteriano OM-85 e chiado em crianças pequenas (estudo ORBEX) | Artigo | Pneumologia | 2026-09-07 | [The Lancet (via PubMed)](https://pubmed.ncbi.nlm.nih.gov/42705251/) |
+| Quinta Definição Universal de Infarto | Diretriz | Cardiologia | 2026-08-28 | [American College of Cardiology](https://www.acc.org/latest-in-cardiology/journal-scans/2026/08/25/13/59/global-cv-societies-release-updated-universal-definition-of-mi-esc-2026) |
+| Antibiótico guiado pela resposta na endocardite (estudo POET II) | Artigo | Infectologia | 2026-08-28 | [NEJM (via PubMed)](https://pubmed.ncbi.nlm.nih.gov/42663314/) |
+
+Observações:
+- Descartadas por falta de fonte oficial conferível: Nota Técnica nº 96/2026 do Ministério da Saúde sobre vacina contra o papilomavírus humano (HPV) para crianças vítimas de violência sexual (só encontrada em cópias de terceiros, com data incerta); registro de cinco canetas de semaglutida pela Anvisa (só em notícias); posicionamento SBEM/FEBRASGO sobre tireoide na gestação (texto oficial não encontrado).
+- Títulos, revistas e datas dos artigos foram conferidos pela interface oficial do PubMed. O verificador passou sem erros nem avisos.
+
 ## 2026-10-24: 6 novidades (primeira atualização)
 
 Período pesquisado: 2026-09-20 a 2026-10-24 (primeira atualização, por isso um período maior que 7 dias).
