@@ -1,0 +1,514 @@
+{
+  "fatos": [
+    {
+      "id": "fato-laennec-estetoscopio",
+      "categoria": "História da medicina",
+      "titulo": "O estetoscópio nasceu de um constrangimento",
+      "texto": "Em 1816, no Hospital Necker, em Paris, o médico René Laennec precisava examinar o coração de uma jovem paciente. Naquela época, o costume era encostar o ouvido direto no peito, o que ele achou impróprio para a situação.\n\nLembrou-se então de crianças brincando de transmitir sons por uma tábua de madeira. Enrolou algumas folhas de papel num cilindro, apoiou no tórax da paciente e ouviu os batimentos com mais nitidez do que jamais tinha ouvido.\n\nDepois ele fabricou cilindros de madeira e, em 1819, publicou o tratado que fundou a ausculta. O nome vem do grego: *stethos* (peito) e *skopein* (examinar).",
+      "pergunta": {
+        "enunciado": "O que levou Laennec a criar o primeiro estetoscópio?",
+        "opcoes": [
+          "Uma epidemia de tuberculose que exigia distância dos pacientes",
+          "O constrangimento de encostar o ouvido no peito de uma jovem paciente",
+          "Um pedido do hospital para reduzir o tempo das consultas",
+          "A surdez parcial que ele desenvolveu ao longo da carreira"
+        ],
+        "correta": 2,
+        "explicacao": "Laennec achou impróprio fazer a ausculta direta (ouvido no tórax) numa jovem paciente e improvisou um cilindro de papel. Descobriu que o som chegava até mais nítido."
+      }
+    },
+    {
+      "id": "fato-semmelweis-maos",
+      "categoria": "História da medicina",
+      "titulo": "O médico que mandou lavar as mãos e foi ridicularizado",
+      "texto": "Em 1847, no Hospital Geral de Viena, Ignaz Semmelweis notou algo estranho: na clínica de partos atendida por médicos e estudantes, muito mais mulheres morriam de febre puerperal do que na clínica atendida por parteiras.\n\nA pista veio com a morte de um colega que se cortou durante uma autópsia e adoeceu com sintomas parecidos. Semmelweis concluiu que os médicos levavam “partículas cadavéricas” das autópsias para as parturientes. Mandou todos lavarem as mãos com solução de cal clorada, e a mortalidade despencou.\n\nMesmo assim, suas ideias foram rejeitadas pela comunidade médica. Ele morreu em 1865, num asilo. Só anos depois, com Pasteur e Lister, a teoria dos germes deu razão a ele.",
+      "pergunta": {
+        "enunciado": "Por que a clínica atendida por médicos tinha mais mortes por febre puerperal do que a das parteiras?",
+        "opcoes": [
+          "Os médicos atendiam partos mais complicados",
+          "As parteiras usavam ervas com ação antibiótica",
+          "Os médicos vinham das autópsias sem higienizar as mãos",
+          "A ala dos médicos era mais fria e úmida"
+        ],
+        "correta": 3,
+        "explicacao": "Os médicos e estudantes saíam das salas de autópsia e examinavam as parturientes sem lavar as mãos, levando bactérias (hoje sabemos que era principalmente o estreptococo do grupo A)."
+      }
+    },
+    {
+      "id": "fato-babinski",
+      "categoria": "Epônimos",
+      "titulo": "Babinski: o dedão que denuncia o cérebro",
+      "texto": "Em 1896, o neurologista francês Joseph Babinski, filho de imigrantes poloneses, descreveu o que chamou de “fenômeno dos dedos do pé”: ao estimular a planta do pé com um objeto rombo, o dedão se estende para cima em vez de se flexionar.\n\nEm adultos, esse sinal indica lesão do neurônio motor superior, ou seja, da via que desce do córtex cerebral pela medula (o trato corticoespinhal). Já em bebês, ele é normal até cerca de 1 a 2 anos de idade, porque essa via ainda está terminando de ser mielinizada.\n\nUm exame de poucos segundos, sem nenhum aparelho, que segue útil mais de um século depois.",
+      "pergunta": {
+        "enunciado": "Em qual situação o sinal de Babinski (extensão do hálux) é considerado normal?",
+        "opcoes": [
+          "Em idosos acima de 80 anos",
+          "Em lactentes, até cerca de 1 a 2 anos de idade",
+          "Em atletas com reflexos muito vivos",
+          "Em qualquer pessoa durante o sono"
+        ],
+        "correta": 2,
+        "explicacao": "Nos lactentes, o trato corticoespinhal ainda está em mielinização, por isso a resposta em extensão é esperada. Depois dessa fase, ela sugere lesão do neurônio motor superior."
+      }
+    },
+    {
+      "id": "fato-parkinson",
+      "categoria": "Epônimos",
+      "titulo": "James Parkinson nunca chamou a doença de “Parkinson”",
+      "texto": "Em 1817, o médico inglês James Parkinson publicou *An Essay on the Shaking Palsy* (“Um ensaio sobre a paralisia agitante”). Descreveu seis pessoas, algumas das quais apenas observou caminhando pelas ruas de Londres.\n\nQuem deu o nome “doença de Parkinson” foi o neurologista francês Jean-Martin Charcot, décadas depois, em homenagem ao autor do ensaio. Charcot também apontou que os pacientes não tinham exatamente “paralisia”: a força era preservada, e o problema era a lentidão e a rigidez dos movimentos.\n\nParkinson era um homem de muitos interesses: também foi geólogo, paleontólogo e ativista político.",
+      "pergunta": {
+        "enunciado": "Quem deu à doença o nome “doença de Parkinson”?",
+        "opcoes": [
+          "O próprio James Parkinson, em 1817",
+          "A Organização Mundial da Saúde, em 1948",
+          "O neurologista francês Jean-Martin Charcot",
+          "Os pacientes de Parkinson em Londres"
+        ],
+        "correta": 3,
+        "explicacao": "Parkinson chamou o quadro de “paralisia agitante”. Charcot propôs o epônimo em sua homenagem e corrigiu a ideia de paralisia, já que a força muscular se mantém."
+      }
+    },
+    {
+      "id": "fato-phineas-gage",
+      "categoria": "Casos inusitados",
+      "titulo": "Phineas Gage e a barra de ferro que atravessou seu crânio",
+      "texto": "Em 13 de setembro de 1848, em Vermont, nos Estados Unidos, o capataz de ferrovia Phineas Gage preparava uma explosão quando a pólvora detonou antes da hora. Uma barra de ferro de cerca de 1 metro e 6 quilos entrou pela sua bochecha esquerda, passou atrás do olho e saiu pelo topo da cabeça.\n\nGage sobreviveu, conversou logo depois do acidente e se recuperou fisicamente. Mas, segundo seu médico, John Harlow, sua personalidade mudou: o homem antes equilibrado ficou impulsivo e irreverente. Os amigos diziam que ele “não era mais Gage”.\n\nO caso virou um marco no estudo do lobo frontal e de seu papel no comportamento. O crânio e a barra estão até hoje num museu da Universidade Harvard.",
+      "pergunta": {
+        "enunciado": "Qual região do cérebro foi lesada no caso de Phineas Gage, ligando-o ao estudo do comportamento?",
+        "opcoes": [
+          "O cerebelo",
+          "O lobo occipital",
+          "O lobo frontal",
+          "O tronco encefálico"
+        ],
+        "correta": 3,
+        "explicacao": "A barra destruiu boa parte do lobo frontal esquerdo. As mudanças de personalidade de Gage ajudaram a mostrar o papel dessa região no controle dos impulsos e no comportamento social."
+      }
+    },
+    {
+      "id": "fato-fleming-penicilina",
+      "categoria": "História da medicina",
+      "titulo": "A penicilina começou com uma placa esquecida",
+      "texto": "Em setembro de 1928, Alexander Fleming voltou de férias ao seu laboratório no Hospital St. Mary’s, em Londres, e encontrou uma placa de cultura de estafilococos contaminada por um fungo. Ao redor do fungo, as bactérias tinham sumido.\n\nO fungo era do gênero *Penicillium*, e Fleming chamou a substância que ele produzia de penicilina. Mas ele não conseguiu purificá-la em quantidade suficiente para tratar pessoas.\n\nIsso só aconteceu por volta de 1940, em Oxford, com Howard Florey e Ernst Chain. A produção em massa veio durante a Segunda Guerra Mundial. Os três dividiram o Prêmio Nobel de Fisiologia ou Medicina de 1945.",
+      "pergunta": {
+        "enunciado": "Quem transformou a penicilina num medicamento que podia ser usado em pacientes?",
+        "opcoes": [
+          "Alexander Fleming, sozinho, em 1928",
+          "Howard Florey e Ernst Chain, em Oxford",
+          "Louis Pasteur, no Instituto Pasteur",
+          "Robert Koch, em Berlim"
+        ],
+        "correta": 2,
+        "explicacao": "Fleming descobriu o efeito, mas foram Florey e Chain que purificaram a penicilina e mostraram que ela curava infecções. Por isso os três dividiram o Nobel de 1945."
+      }
+    },
+    {
+      "id": "fato-eter-1846",
+      "categoria": "História da medicina",
+      "titulo": "O dia em que a cirurgia deixou de doer",
+      "texto": "Antes da anestesia, a qualidade de um cirurgião era medida pela velocidade: quanto mais rápido, menos o paciente sofria. Isso mudou em 16 de outubro de 1846, no Hospital Geral de Massachusetts, em Boston.\n\nO dentista William Morton fez o paciente Edward Gilbert Abbott inalar vapor de éter, e o cirurgião John Collins Warren retirou um tumor do pescoço dele sem que ele sentisse dor. A notícia se espalhou pelo mundo em poucos meses.\n\nO anfiteatro onde tudo aconteceu ficou conhecido como *Ether Dome* (“cúpula do éter”). Até hoje, 16 de outubro é celebrado como o Dia Mundial da Anestesia.",
+      "pergunta": {
+        "enunciado": "Por que 16 de outubro é o Dia Mundial da Anestesia?",
+        "opcoes": [
+          "É a data da primeira demonstração pública de anestesia com éter, em 1846",
+          "É o aniversário do inventor do clorofórmio",
+          "Foi o dia da primeira cesariana com anestesia raquidiana",
+          "Marca a fundação da primeira sociedade de anestesiologia"
+        ],
+        "correta": 1,
+        "explicacao": "Em 16 de outubro de 1846, Morton anestesiou um paciente com éter diante de uma plateia em Boston. Foi a demonstração que convenceu o mundo de que cirurgia sem dor era possível."
+      }
+    },
+    {
+      "id": "fato-insulina",
+      "categoria": "História da medicina",
+      "titulo": "Um menino de 14 anos e a primeira dose de insulina",
+      "texto": "Até o início do século XX, o diabetes tipo 1 era uma sentença de morte. Em 1921, em Toronto, no Canadá, o cirurgião Frederick Banting e o estudante Charles Best conseguiram extrair insulina do pâncreas de cães, no laboratório de John Macleod.\n\nEm janeiro de 1922, Leonard Thompson, um menino de 14 anos à beira da morte, recebeu as primeiras injeções. Com um extrato mais purificado pelo bioquímico James Collip, ele melhorou de forma impressionante.\n\nO Nobel de 1923 foi para Banting e Macleod. Banting, inconformado por Best ter ficado de fora, dividiu com ele o dinheiro do prêmio, e Macleod fez o mesmo com Collip. Aos 32 anos, Banting é até hoje o mais jovem a ganhar o Nobel de Fisiologia ou Medicina.",
+      "pergunta": {
+        "enunciado": "O que Banting fez ao saber que Charles Best não tinha sido incluído no Nobel?",
+        "opcoes": [
+          "Recusou o prêmio",
+          "Dividiu com Best o dinheiro do prêmio",
+          "Processou o comitê do Nobel",
+          "Deixou de pesquisar diabetes"
+        ],
+        "correta": 2,
+        "explicacao": "Banting achava que Best merecia o reconhecimento e dividiu com ele o valor do prêmio. Macleod, por sua vez, dividiu sua parte com Collip, que purificou o extrato."
+      }
+    },
+    {
+      "id": "fato-tetralogia-fallot",
+      "categoria": "Epônimos",
+      "titulo": "Fallot e as quatro alterações da “doença azul”",
+      "texto": "Em 1888, o médico francês Étienne-Louis Arthur Fallot, de Marselha, publicou uma análise detalhada da chamada *maladie bleue* (“doença azul”), em que crianças nascem com cianose. Ele mostrou que o quadro costumava vir de um conjunto de quatro alterações no coração.\n\nCuriosamente, Fallot não foi o primeiro a descrevê-las: o anatomista dinamarquês Niels Stensen já tinha relatado o achado em 1671. Mas foi a descrição clara de Fallot, ligando a anatomia à clínica, que fixou o nome.\n\nHoje a tetralogia de Fallot é a cardiopatia congênita cianótica mais comum, e a correção cirúrgica permite que a maioria dos pacientes chegue à vida adulta.",
+      "pergunta": {
+        "enunciado": "Qual alternativa NÃO faz parte da tetralogia de Fallot?",
+        "opcoes": [
+          "Comunicação interventricular",
+          "Estenose da via de saída do ventrículo direito",
+          "Hipertrofia do ventrículo esquerdo",
+          "Aorta “cavalgando” o septo interventricular"
+        ],
+        "correta": 3,
+        "explicacao": "A tetralogia é formada por comunicação interventricular, obstrução da saída do ventrículo direito, aorta cavalgante e hipertrofia do ventrículo DIREITO, não do esquerdo."
+      }
+    },
+    {
+      "id": "fato-carlos-chagas",
+      "categoria": "História da medicina",
+      "titulo": "Carlos Chagas e uma façanha única na medicina",
+      "texto": "Em 1909, em Lassance, no interior de Minas Gerais, o médico brasileiro Carlos Chagas, do Instituto Oswaldo Cruz, fez algo raríssimo: descreveu sozinho praticamente tudo sobre uma doença nova.\n\nEle identificou o parasita, que batizou de *Trypanosoma cruzi* em homenagem a Oswaldo Cruz; o inseto que o transmite, o barbeiro; os animais que servem de reservatório; e o quadro clínico em humanos. A primeira paciente diagnosticada foi uma menina de 2 anos chamada Berenice.\n\nChagas foi indicado ao Prêmio Nobel, mas nunca o recebeu. A doença de Chagas segue sendo um problema de saúde pública na América Latina.",
+      "pergunta": {
+        "enunciado": "Por que a descoberta de Carlos Chagas é considerada única na história da medicina?",
+        "opcoes": [
+          "Foi a primeira doença descoberta com microscópio eletrônico",
+          "Ele descreveu agente, vetor, reservatórios e quadro clínico de uma doença nova",
+          "Ele criou a vacina contra a doença no mesmo ano",
+          "Foi a primeira doença tratada com antibiótico no Brasil"
+        ],
+        "correta": 2,
+        "explicacao": "Chagas descreveu o ciclo completo da doença: o protozoário, o barbeiro que o transmite, os animais reservatórios e a doença em humanos. É um feito sem paralelo."
+      }
+    },
+    {
+      "id": "fato-revolta-da-vacina",
+      "categoria": "História da medicina",
+      "titulo": "A Revolta da Vacina, no Rio de 1904",
+      "texto": "No começo do século XX, o Rio de Janeiro, então capital do Brasil, sofria com varíola, febre amarela e peste. O sanitarista Oswaldo Cruz, diretor-geral de Saúde Pública, liderou campanhas duras contra essas doenças.\n\nEm 1904, uma lei tornou obrigatória a vacinação contra a varíola. Agentes podiam entrar nas casas para vacinar, o que gerou medo e revolta, num momento em que a cidade também passava por demolições de cortiços. Em novembro, a população tomou as ruas por quase uma semana, e a obrigatoriedade acabou suspensa.\n\nPouco depois, em 1908, uma grande epidemia de varíola levou a população a procurar a vacina por conta própria.",
+      "pergunta": {
+        "enunciado": "Qual foi o estopim da Revolta da Vacina, em 1904?",
+        "opcoes": [
+          "A cobrança de um imposto sobre medicamentos",
+          "A lei que tornou obrigatória a vacinação contra a varíola",
+          "O fechamento dos hospitais da Santa Casa",
+          "A proibição de curandeiros no Rio de Janeiro"
+        ],
+        "correta": 2,
+        "explicacao": "A vacinação obrigatória contra a varíola, feita às vezes de forma invasiva, somou-se ao descontentamento com as reformas urbanas e levou a dias de conflito nas ruas."
+      }
+    },
+    {
+      "id": "fato-john-snow",
+      "categoria": "História da medicina",
+      "titulo": "John Snow, o mapa da cólera e a bomba sem manivela",
+      "texto": "Em 1854, um surto de cólera matou centenas de pessoas no bairro do Soho, em Londres. Na época, a explicação dominante era a dos “miasmas”, um suposto ar ruim vindo de matéria em decomposição.\n\nO médico John Snow desconfiava da água. Marcou num mapa as casas com mortes e viu que elas se concentravam ao redor de uma bomba pública na Broad Street. Convenceu as autoridades a retirar a manivela da bomba, e o surto, que já perdia força, terminou.\n\nSnow é considerado um dos pais da epidemiologia. Detalhe curioso: ele também era anestesista e aplicou clorofórmio na rainha Vitória durante um de seus partos.",
+      "pergunta": {
+        "enunciado": "Como John Snow ligou a cólera à bomba d’água da Broad Street?",
+        "opcoes": [
+          "Viu o vibrião da cólera na água ao microscópio",
+          "Mapeou as mortes e percebeu que se concentravam ao redor da bomba",
+          "Fez autópsias que mostraram água nos pulmões",
+          "Testou a água em animais de laboratório"
+        ],
+        "correta": 2,
+        "explicacao": "Snow usou o raciocínio epidemiológico: ao marcar os casos num mapa, viu o agrupamento em torno da bomba. O agente, o *Vibrio cholerae*, só seria amplamente aceito décadas depois."
+      }
+    },
+    {
+      "id": "fato-hemacias",
+      "categoria": "Curiosidades de fisiologia",
+      "titulo": "Uma fábrica de 2 milhões de hemácias por segundo",
+      "texto": "A medula óssea de um adulto produz cerca de 2 milhões de hemácias por segundo. Esse ritmo é necessário porque cada hemácia vive, em média, só 120 dias.\n\nNos mamíferos, as hemácias maduras não têm núcleo nem mitocôndrias. Isso libera espaço para a hemoglobina e permite o formato de disco bicôncavo, que aumenta a superfície para trocar gases e deixa a célula flexível para passar por capilares mais estreitos que ela.\n\nQuando envelhecem e ficam menos flexíveis, as hemácias são retiradas da circulação principalmente pelos macrófagos do baço. A hemoglobina é reaproveitada: o ferro volta para a medula e o restante vira bilirrubina.",
+      "pergunta": {
+        "enunciado": "Qual é a vida média de uma hemácia no sangue?",
+        "opcoes": [
+          "Cerca de 12 horas",
+          "Cerca de 7 dias",
+          "Cerca de 120 dias",
+          "Cerca de 5 anos"
+        ],
+        "correta": 3,
+        "explicacao": "As hemácias vivem em média 120 dias. Por isso exames como a hemoglobina glicada refletem a glicemia dos últimos 2 a 3 meses."
+      }
+    },
+    {
+      "id": "fato-dedos-enrugados",
+      "categoria": "Curiosidades de fisiologia",
+      "titulo": "Dedos enrugados na água: obra do sistema nervoso",
+      "texto": "Durante muito tempo se achou que a pele dos dedos enrugava na água só porque “inchava” ao absorver líquido. Mas há uma pista de que não é tão simples: dedos com o nervo lesado não enrugam.\n\nO enrugamento é comandado pelo sistema nervoso simpático, que contrai os vasos sanguíneos da ponta dos dedos. O volume de tecido diminui e a pele se dobra. Por isso, ele já foi usado como um teste simples para avaliar lesões de nervos periféricos.\n\nUma hipótese é que os sulcos funcionem como os de um pneu, ajudando a segurar objetos molhados. Alguns estudos encontraram esse efeito, mas o assunto ainda é debatido.",
+      "pergunta": {
+        "enunciado": "O que prova que o enrugamento dos dedos na água não é apenas absorção passiva de água?",
+        "opcoes": [
+          "Ele acontece só em água salgada",
+          "Dedos com o nervo lesado não enrugam",
+          "Ele só ocorre em crianças",
+          "Ele acontece igualmente em todo o corpo"
+        ],
+        "correta": 2,
+        "explicacao": "Se fosse só absorção, qualquer dedo enrugaria. Como depende da inervação simpática, dedos desnervados não enrugam, o que mostra que é uma resposta ativa do corpo."
+      }
+    },
+    {
+      "id": "fato-reflexo-mergulho",
+      "categoria": "Curiosidades de fisiologia",
+      "titulo": "O reflexo de mergulho que todos nós temos",
+      "texto": "Quando o rosto entra em contato com água fria, especialmente com a respiração presa, o corpo dispara o reflexo de mergulho: o coração desacelera (bradicardia) e os vasos da pele e dos membros se contraem.\n\nO estímulo é captado pelo nervo trigêmeo, que inerva o rosto, e a resposta passa pelo nervo vago. O efeito é poupar oxigênio para os órgãos mais sensíveis, como o cérebro e o coração. Em mamíferos marinhos, como focas, esse reflexo é muito mais intenso.\n\nA medicina aproveita isso: colocar gelo ou água gelada no rosto é uma manobra vagal usada para tentar interromper a taquicardia supraventricular, principalmente em bebês.",
+      "pergunta": {
+        "enunciado": "Qual é a principal resposta cardíaca do reflexo de mergulho?",
+        "opcoes": [
+          "Taquicardia",
+          "Bradicardia",
+          "Fibrilação atrial",
+          "Aumento da força de contração sem mudar a frequência"
+        ],
+        "correta": 2,
+        "explicacao": "O reflexo ativa o nervo vago e reduz a frequência cardíaca. Por isso ele pode ser usado como manobra vagal em algumas taquicardias."
+      }
+    },
+    {
+      "id": "fato-tendao-aquiles",
+      "categoria": "Epônimos",
+      "titulo": "O tendão de Aquiles e o anatomista que dissecou a própria perna",
+      "texto": "Na mitologia grega, a ninfa Tétis mergulhou o filho Aquiles no rio Estige para torná-lo invulnerável, mas o segurou pelo calcanhar. Esse ponto ficou desprotegido, e foi ali que uma flecha o matou na Guerra de Troia.\n\nO nome “corda de Aquiles” para o tendão do calcanhar foi popularizado em 1693 pelo anatomista flamengo Philip Verheyen. Segundo relatos da época, Verheyen teve a perna amputada e, mais tarde, dissecou a própria perna para estudá-la.\n\nNa terminologia anatômica atual, que evita epônimos, o nome oficial é tendão do calcâneo.",
+      "pergunta": {
+        "enunciado": "Qual é o nome do tendão de Aquiles na terminologia anatômica oficial?",
+        "opcoes": [
+          "Tendão do sóleo",
+          "Tendão do calcâneo",
+          "Tendão do tálus",
+          "Tendão plantar"
+        ],
+        "correta": 2,
+        "explicacao": "A terminologia anatômica internacional prefere nomes descritivos. O tendão de Aquiles, formado pelo gastrocnêmio e pelo sóleo, é chamado de tendão do calcâneo."
+      }
+    },
+    {
+      "id": "fato-falopio",
+      "categoria": "Epônimos",
+      "titulo": "Falópio: as tubas, o nervo facial e um preservativo de linho",
+      "texto": "Gabriele Falloppio foi um anatomista italiano do século XVI, professor em Pádua. Ele descreveu as tubas uterinas e comparou seu formato ao de uma tuba, o instrumento musical. Daí vem “trompas de Falópio”.\n\nEle também descreveu o canal por onde passa o nervo facial no osso temporal, chamado por muito tempo de aqueduto de Falópio. E, num livro sobre a sífilis, descreveu uma bainha de linho para proteger contra a doença, um dos primeiros relatos de preservativo.\n\nHoje, a terminologia anatômica recomenda o nome “tuba uterina”, sem epônimo.",
+      "pergunta": {
+        "enunciado": "Qual é o termo recomendado pela terminologia anatômica atual para as “trompas de Falópio”?",
+        "opcoes": [
+          "Ductos de Müller",
+          "Tubas uterinas",
+          "Canais ovarianos",
+          "Ligamentos largos"
+        ],
+        "correta": 2,
+        "explicacao": "A terminologia anatômica internacional usa “tuba uterina”. Os ductos de Müller (paramesonéfricos) são as estruturas embrionárias que dão origem às tubas, ao útero e à parte superior da vagina."
+      }
+    },
+    {
+      "id": "fato-sindrome-de-down",
+      "categoria": "Epônimos",
+      "titulo": "Síndrome de Down: um nome, duas descobertas",
+      "texto": "Em 1866, o médico inglês John Langdon Down descreveu as características clínicas da síndrome que hoje leva seu nome. Ele usou um termo étnico, inspirado nas teorias raciais da época, que hoje é considerado ofensivo e foi abandonado, inclusive pela Organização Mundial da Saúde, nos anos 1960.\n\nA causa só foi descoberta em 1959, quase um século depois: o grupo do geneticista francês Jérôme Lejeune mostrou que as pessoas com a síndrome tinham um cromossomo 21 a mais, a trissomia do 21.\n\nDown, aliás, foi um defensor do tratamento digno de pessoas com deficiência intelectual, numa época em que elas costumavam ser excluídas.",
+      "pergunta": {
+        "enunciado": "Em que ano foi descoberta a causa cromossômica da síndrome de Down?",
+        "opcoes": [
+          "1866",
+          "1909",
+          "1959",
+          "1990"
+        ],
+        "correta": 3,
+        "explicacao": "Down descreveu a síndrome em 1866, mas a trissomia do 21 só foi identificada em 1959, pelo grupo de Jérôme Lejeune."
+      }
+    },
+    {
+      "id": "fato-rogozov",
+      "categoria": "Casos inusitados",
+      "titulo": "O médico que tirou o próprio apêndice na Antártica",
+      "texto": "Em abril de 1961, Leonid Rogozov, um médico soviético de 27 anos, era o único médico de uma estação de pesquisa na Antártica. Começou a sentir dor abdominal, febre e náuseas e fez o próprio diagnóstico: apendicite aguda.\n\nNão havia como ser resgatado por causa de uma tempestade de neve. Então ele decidiu se operar. Com anestesia local, um espelho e a ajuda de dois colegas que seguravam instrumentos e a luz, ele abriu o próprio abdome e retirou o apêndice, que já estava perto de perfurar.\n\nA cirurgia durou quase duas horas. Duas semanas depois, Rogozov já tinha voltado ao trabalho.",
+      "pergunta": {
+        "enunciado": "Por que Rogozov precisou operar a si mesmo?",
+        "opcoes": [
+          "Não confiava nos cirurgiões da expedição",
+          "Era o único médico da estação e não havia como ser resgatado",
+          "Queria provar que a autocirurgia era possível",
+          "Os colegas se recusaram a ajudar"
+        ],
+        "correta": 2,
+        "explicacao": "Isolado na Antártica, sem outro médico e sem possibilidade de resgate, a alternativa era esperar uma provável perfuração do apêndice e peritonite."
+      }
+    },
+    {
+      "id": "fato-mary-tifoide",
+      "categoria": "Casos inusitados",
+      "titulo": "“Mary Tifoide”, a portadora que não adoecia",
+      "texto": "Mary Mallon era uma cozinheira irlandesa que trabalhava para famílias ricas em Nova York, no início do século XX. Por onde ela passava, pessoas adoeciam com febre tifoide.\n\nEm 1907, o engenheiro sanitarista George Soper ligou os surtos a ela. Mary nunca teve sintomas, mas carregava a bactéria *Salmonella* Typhi e a eliminava nas fezes. Foi o primeiro portador assintomático da doença identificado nos Estados Unidos.\n\nMary não acreditava que podia transmitir uma doença que não tinha e voltou a trabalhar como cozinheira usando outro nome. Ela passou, ao todo, mais de 20 anos isolada numa ilha de Nova York, onde morreu em 1938.",
+      "pergunta": {
+        "enunciado": "Qual conceito o caso de Mary Mallon ajudou a popularizar?",
+        "opcoes": [
+          "Imunidade de rebanho",
+          "Portador assintomático",
+          "Resistência a antibióticos",
+          "Transmissão por mosquitos"
+        ],
+        "correta": 2,
+        "explicacao": "Mary carregava e transmitia a *Salmonella* Typhi sem nunca ter adoecido. Seu caso mostrou que pessoas saudáveis podem espalhar doenças infecciosas."
+      }
+    },
+    {
+      "id": "fato-henrietta-lacks",
+      "categoria": "Casos inusitados",
+      "titulo": "Henrietta Lacks e as células que não morrem",
+      "texto": "Em 1951, Henrietta Lacks, uma mulher negra de 31 anos, foi tratada de um câncer de colo do útero no Hospital Johns Hopkins, nos Estados Unidos. Sem o conhecimento ou o consentimento dela, uma amostra do tumor foi entregue ao pesquisador George Gey.\n\nAs células, batizadas de HeLa (de **He**nrietta **La**cks), foram as primeiras células humanas a se multiplicar indefinidamente em laboratório. Elas ajudaram a testar a vacina contra a poliomielite e foram usadas em incontáveis pesquisas. Mais tarde, descobriu-se que carregavam o DNA do HPV 18 (papilomavírus humano tipo 18).\n\nHenrietta morreu meses depois, e sua família só soube das células décadas mais tarde. O caso é um marco nas discussões sobre consentimento e ética em pesquisa.",
+      "pergunta": {
+        "enunciado": "Por que o caso de Henrietta Lacks é tão discutido na ética médica?",
+        "opcoes": [
+          "Porque ela foi tratada com uma droga experimental proibida",
+          "Porque suas células foram usadas em pesquisa sem seu consentimento",
+          "Porque ela foi a primeira paciente com câncer de colo do útero",
+          "Porque ela recusou o tratamento oferecido"
+        ],
+        "correta": 2,
+        "explicacao": "As células de Henrietta foram coletadas e usadas sem seu conhecimento, e a família não foi informada nem consultada por décadas. O caso influenciou regras atuais de consentimento informado."
+      }
+    },
+    {
+      "id": "fato-barry-marshall",
+      "categoria": "Casos inusitados",
+      "titulo": "O médico que bebeu bactérias para provar uma teoria",
+      "texto": "No início dos anos 1980, em Perth, na Austrália, o patologista Robin Warren e o jovem médico Barry Marshall defendiam que uma bactéria, a *Helicobacter pylori*, causava gastrite e úlceras. A ideia dominante era que úlcera vinha de estresse e excesso de ácido.\n\nComo era difícil convencer os colegas, em 1984 Marshall bebeu uma cultura da bactéria. Dias depois, teve náuseas e vômitos, e uma endoscopia mostrou gastrite. Ele se tratou com antibióticos e se curou.\n\nA descoberta mudou o tratamento das úlceras, que passaram a ser curadas com antibióticos. Warren e Marshall ganharam o Nobel de Fisiologia ou Medicina em 2005.",
+      "pergunta": {
+        "enunciado": "Qual mudança no tratamento veio da descoberta de Warren e Marshall?",
+        "opcoes": [
+          "Úlceras passaram a ser tratadas só com cirurgia",
+          "Úlceras ligadas à *H. pylori* passaram a ser curadas com antibióticos",
+          "O estresse passou a ser tratado com antiácidos",
+          "A endoscopia deixou de ser necessária"
+        ],
+        "correta": 2,
+        "explicacao": "Ao provar que a *H. pylori* causa gastrite e úlcera, eles mostraram que erradicar a bactéria com antibióticos cura a doença e reduz muito as recaídas."
+      }
+    },
+    {
+      "id": "fato-forssmann",
+      "categoria": "Casos inusitados",
+      "titulo": "O residente que cateterizou o próprio coração",
+      "texto": "Em 1929, o médico alemão Werner Forssmann, então com 25 anos, queria provar que era possível levar um cateter até o coração de uma pessoa viva. Os chefes proibiram o experimento por acharem perigoso demais.\n\nEle fez assim mesmo, em si próprio: introduziu um cateter numa veia do braço e o empurrou por cerca de 60 centímetros. Depois, foi caminhando até a sala de raios X, onde uma radiografia mostrou a ponta do cateter dentro do átrio direito.\n\nNa época, Forssmann foi criticado e acabou deixando a cardiologia. Mas a técnica foi desenvolvida por outros pesquisadores, e em 1956 ele dividiu o Nobel de Fisiologia ou Medicina com André Cournand e Dickinson Richards.",
+      "pergunta": {
+        "enunciado": "Até qual câmara cardíaca Forssmann levou o cateter em si mesmo?",
+        "opcoes": [
+          "Ventrículo esquerdo",
+          "Átrio esquerdo",
+          "Átrio direito",
+          "Aorta"
+        ],
+        "correta": 3,
+        "explicacao": "Entrando por uma veia do braço, o cateter segue o caminho do sangue venoso até a veia cava superior e chega ao átrio direito, como mostrou a radiografia."
+      }
+    },
+    {
+      "id": "fato-rontgen",
+      "categoria": "História da medicina",
+      "titulo": "A primeira radiografia mostrava uma aliança",
+      "texto": "Em novembro de 1895, em Würzburg, na Alemanha, o físico Wilhelm Röntgen percebeu que um tubo de raios catódicos coberto fazia brilhar uma tela a distância. Era um tipo de radiação desconhecida, e por isso ele a chamou de raios X.\n\nPoucas semanas depois, ele radiografou a mão da esposa, Anna Bertha. A imagem mostrava os ossos e a aliança. Diz-se que, ao vê-la, ela comentou que tinha visto a própria morte.\n\nEm poucos meses, médicos do mundo inteiro já usavam os raios X para achar fraturas e projéteis. Röntgen ganhou o primeiro Prêmio Nobel de Física, em 1901, e se recusou a patentear a descoberta.",
+      "pergunta": {
+        "enunciado": "Por que Röntgen chamou sua descoberta de “raios X”?",
+        "opcoes": [
+          "Por causa do formato em X do tubo",
+          "Porque era o décimo tipo de raio conhecido",
+          "Porque era uma radiação de natureza desconhecida",
+          "Em homenagem ao seu laboratório, chamado X"
+        ],
+        "correta": 3,
+        "explicacao": "Na matemática, X representa o desconhecido. Röntgen não sabia a natureza daquela radiação, por isso o nome."
+      }
+    },
+    {
+      "id": "fato-jenner-vacina",
+      "categoria": "História da medicina",
+      "titulo": "Por que “vacina” vem de vaca",
+      "texto": "No fim do século XVIII, o médico inglês Edward Jenner ouviu dizer que ordenhadoras que pegavam a varíola bovina, uma doença leve, não pegavam a varíola humana, que matava muito.\n\nEm 1796, ele retirou material de uma lesão da mão da ordenhadora Sarah Nelmes e inoculou em James Phipps, um menino de 8 anos. Semanas depois, expôs o menino à varíola humana, e ele não adoeceu. Hoje esse experimento seria impensável do ponto de vista ético.\n\nO método recebeu o nome de vacinação, do latim *vacca*. Quase dois séculos depois, em 1980, a Organização Mundial da Saúde declarou a varíola erradicada, a primeira doença humana eliminada do planeta.",
+      "pergunta": {
+        "enunciado": "Qual foi a primeira doença humana declarada erradicada pela Organização Mundial da Saúde?",
+        "opcoes": [
+          "Poliomielite",
+          "Sarampo",
+          "Varíola",
+          "Febre amarela"
+        ],
+        "correta": 3,
+        "explicacao": "A varíola foi declarada erradicada em 1980, graças a uma campanha mundial de vacinação. A poliomielite segue em processo de erradicação."
+      }
+    },
+    {
+      "id": "fato-figado-regenera",
+      "categoria": "Curiosidades de fisiologia",
+      "titulo": "O fígado de Prometeu",
+      "texto": "Na mitologia grega, Prometeu roubou o fogo dos deuses e foi castigado: uma águia comia seu fígado todos os dias, e o órgão se regenerava à noite. Por acaso, o mito escolheu o órgão certo.\n\nO fígado humano consegue recuperar seu volume mesmo depois da retirada de cerca de dois terços do órgão. Os hepatócitos, que normalmente quase não se dividem, voltam a se multiplicar até o fígado atingir o tamanho necessário para o corpo, em geral em algumas semanas.\n\nÉ essa capacidade que permite o transplante de fígado com doador vivo: uma parte do fígado do doador é implantada no receptor, e os dois fígados crescem.",
+      "pergunta": {
+        "enunciado": "Que procedimento depende diretamente da capacidade de regeneração do fígado?",
+        "opcoes": [
+          "A hemodiálise",
+          "O transplante de fígado com doador vivo",
+          "A colecistectomia",
+          "A biópsia hepática"
+        ],
+        "correta": 2,
+        "explicacao": "No transplante intervivos, doador e receptor ficam cada um com uma parte do fígado, e as duas partes se regeneram até um volume adequado."
+      }
+    },
+    {
+      "id": "fato-sangue-azul",
+      "categoria": "Curiosidades de fisiologia",
+      "titulo": "O sangue das veias não é azul",
+      "texto": "Muita gente aprendeu que o sangue venoso é azul e só fica vermelho em contato com o oxigênio. Não é verdade: o sangue é sempre vermelho, apenas mais escuro nas veias, onde a hemoglobina carrega menos oxigênio.\n\nAs veias parecem azuladas por um efeito óptico. A luz vermelha penetra mais fundo na pele e boa parte dela é absorvida pelo sangue. Proporcionalmente, a luz azul que volta das veias é maior, e o cérebro interpreta a cor como azulada.\n\nA expressão “sangue azul”, para nobres, vem da Espanha: aristocratas de pele clara, que não trabalhavam no sol, tinham as veias mais visíveis.",
+      "pergunta": {
+        "enunciado": "Por que as veias parecem azuis através da pele?",
+        "opcoes": [
+          "Porque o sangue venoso é azul",
+          "Por um efeito óptico de absorção e reflexão da luz pela pele e pelo sangue",
+          "Porque as paredes das veias têm pigmento azul",
+          "Porque o gás carbônico deixa o sangue azul"
+        ],
+        "correta": 2,
+        "explicacao": "O sangue venoso é vermelho-escuro. A cor azulada é resultado de como a luz de diferentes comprimentos de onda atravessa a pele e é absorvida pelo sangue."
+      }
+    },
+    {
+      "id": "fato-cerebro-energia",
+      "categoria": "Curiosidades de fisiologia",
+      "titulo": "O órgão mais caro do corpo",
+      "texto": "O cérebro de um adulto pesa cerca de 1,4 quilo, perto de 2% do peso corporal. Mesmo assim, em repouso, ele consome cerca de 20% do oxigênio e da energia do corpo inteiro.\n\nBoa parte desse gasto serve para manter os gradientes de íons dos neurônios, que permitem os impulsos elétricos. Como o cérebro quase não armazena energia, ele depende de um fornecimento contínuo de glicose e oxigênio. Poucos minutos sem fluxo sanguíneo já podem causar lesões.\n\nEm jejum prolongado, o cérebro se adapta e passa a usar também corpos cetônicos, produzidos pelo fígado a partir da gordura.",
+      "pergunta": {
+        "enunciado": "Aproximadamente quanto da energia do corpo em repouso é consumida pelo cérebro?",
+        "opcoes": [
+          "2%",
+          "20%",
+          "50%",
+          "75%"
+        ],
+        "correta": 2,
+        "explicacao": "O cérebro representa cerca de 2% do peso corporal, mas consome em torno de 20% do oxigênio e da energia em repouso."
+      }
+    },
+    {
+      "id": "fato-transplante-cardiaco",
+      "categoria": "História da medicina",
+      "titulo": "Os primeiros transplantes de coração: Cidade do Cabo e São Paulo",
+      "texto": "Em 3 de dezembro de 1967, na Cidade do Cabo, na África do Sul, o cirurgião Christiaan Barnard fez o primeiro transplante de coração entre seres humanos. O receptor, Louis Washkansky, de 53 anos, sobreviveu 18 dias e morreu de pneumonia, já que os remédios que impediam a rejeição também baixavam suas defesas.\n\nMenos de seis meses depois, em maio de 1968, o cirurgião Euryclides de Jesus Zerbini fez o primeiro transplante cardíaco da América Latina, no Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo. O paciente, João Ferreira da Cunha, viveu 28 dias.\n\nOs transplantes só se tornaram realmente viáveis nos anos 1980, com a chegada da ciclosporina, um imunossupressor mais eficaz.",
+      "pergunta": {
+        "enunciado": "O que tornou os transplantes cardíacos realmente viáveis a partir dos anos 1980?",
+        "opcoes": [
+          "A circulação extracorpórea",
+          "A chegada da ciclosporina, um imunossupressor mais eficaz",
+          "O coração artificial",
+          "A anestesia geral"
+        ],
+        "correta": 2,
+        "explicacao": "A rejeição e as infecções limitavam muito a sobrevida. A ciclosporina melhorou o controle da rejeição e mudou o prognóstico dos transplantados."
+      }
+    },
+    {
+      "id": "fato-apgar",
+      "categoria": "Epônimos",
+      "titulo": "Apgar: um sobrenome que virou sigla",
+      "texto": "Em 1952, a anestesiologista norte-americana Virginia Apgar propôs um jeito simples e rápido de avaliar recém-nascidos logo após o parto. Até então, muitos bebês com dificuldades não recebiam atenção imediata.\n\nA escala dá de 0 a 2 pontos para cinco itens: cor da pele, frequência cardíaca, reação a estímulos, tônus muscular e respiração. A avaliação é feita no 1º e no 5º minuto de vida.\n\nO detalhe curioso: Apgar é o sobrenome dela, não uma sigla. Só em 1962 criaram um acrônimo em inglês para ajudar a memorizar: *Appearance, Pulse, Grimace, Activity, Respiration*.",
+      "pergunta": {
+        "enunciado": "Em quais momentos a escala de Apgar é aplicada rotineiramente?",
+        "opcoes": [
+          "Antes do parto e logo após",
+          "No 1º e no 5º minuto de vida",
+          "No 1º dia e no 1º mês de vida",
+          "Somente quando o bebê não chora"
+        ],
+        "correta": 2,
+        "explicacao": "A escala é aplicada no 1º e no 5º minuto. Se a nota do 5º minuto for baixa, ela é repetida a cada 5 minutos, até 20 minutos."
+      }
+    }
+  ]
+}

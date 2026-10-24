@@ -1,0 +1,155 @@
+{
+  "ultimaAtualizacao": "2026-10-24",
+  "novidades": [
+    {
+      "id": "2026-10-lancet-remibrutinibe-esclerose-multipla",
+      "titulo": "Remibrutinibe, um inibidor oral da BTK, reduz surtos de esclerose múltipla em comparação com a teriflunomida",
+      "tipo": "Artigo",
+      "area": "Neurologia",
+      "dataPublicacao": "2026-10-23",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "The Lancet (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42915009/"
+      },
+      "resumo": "A esclerose múltipla (EM) é uma doença autoimune em que o sistema imune ataca a mielina do sistema nervoso central. Na forma recorrente, a pessoa tem surtos de sintomas neurológicos. Os linfócitos B e a micróglia participam dessa inflamação, e os dois dependem de uma enzima chamada tirosina quinase de Bruton (BTK).\n\nOs estudos REMODEL-1 e REMODEL-2, publicados na The Lancet, compararam o remibrutinibe, um inibidor oral da BTK que chega ao sistema nervoso central, com a teriflunomida, um comprimido já usado no tratamento da EM. Participaram cerca de 2 mil adultos de 18 a 55 anos, em 46 países, acompanhados por até 30 meses.\n\nA taxa anualizada de surtos foi menor com o remibrutinibe nos dois estudos: 0,073 contra 0,112 surtos por paciente por ano no primeiro e 0,080 contra 0,116 no segundo, o que corresponde a uma redução relativa de cerca de 31% a 35%. As interrupções por efeitos adversos foram menos frequentes com o remibrutinibe (3,1% contra 5,8%), e os autores não encontraram sinais de toxicidade no fígado, uma preocupação já levantada com outros remédios dessa classe.",
+      "naPratica": "O remibrutinibe ainda não está aprovado para esclerose múltipla. Se for aprovado, será uma nova opção em comprimido. Vale lembrar que ele foi comparado com a teriflunomida, um tratamento de eficácia moderada, e não com os anticorpos anti-CD20, que estão entre as terapias mais eficazes para a doença.",
+      "pergunta": {
+        "enunciado": "Qual é o alvo de ação do remibrutinibe?",
+        "opcoes": [
+          "A molécula CD20 na superfície dos linfócitos B",
+          "A tirosina quinase de Bruton (BTK)",
+          "O receptor de esfingosina-1-fosfato",
+          "A enzima di-hidro-orotato desidrogenase"
+        ],
+        "correta": 2,
+        "explicacao": "O remibrutinibe inibe a BTK, enzima importante para linfócitos B e micróglia. A di-hidro-orotato desidrogenase é o alvo da teriflunomida, o remédio usado na comparação."
+      }
+    },
+    {
+      "id": "2026-10-fda-bepirovirseno-hepatite-b",
+      "titulo": "FDA aprova bepirovirseno, tratamento que leva parte dos pacientes à “cura funcional” da hepatite B",
+      "tipo": "Medicamento",
+      "area": "Infectologia",
+      "dataPublicacao": "2026-10-20",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "FDA",
+        "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+      },
+      "resumo": "A FDA (Food and Drug Administration, a agência reguladora de medicamentos dos Estados Unidos) aprovou o bepirovirseno, de nome comercial Hibsago, para adultos com infecção crônica pelo vírus da hepatite B (HBV) sem cirrose, em associação ao tratamento antiviral que eles já usam. O bepirovirseno é um oligonucleotídeo antissenso: uma pequena fita sintética que se liga ao RNA do vírus e reduz a produção de proteínas virais, entre elas o antígeno de superfície da hepatite B (HBsAg).\n\nOs antivirais orais atuais controlam a multiplicação do vírus, mas raramente fazem o HBsAg desaparecer, por isso o tratamento costuma ser contínuo por muitos anos. A aprovação se baseou nos estudos de fase 3 B-Well 1 e B-Well 2, publicados no The New England Journal of Medicine em maio. Adultos que já usavam antiviral receberam bepirovirseno ou placebo em injeções semanais sob a pele durante 24 semanas.\n\nCerca de 19% a 20% dos tratados chegaram à “cura funcional”: HBsAg negativo e DNA do vírus indetectável de forma sustentada, mesmo depois de suspender os antivirais. No grupo placebo, nenhum paciente chegou lá. Efeitos adversos graves foram mais comuns com o remédio, principalmente o aumento das transaminases.",
+      "naPratica": "O bepirovirseno abre a possibilidade de um tratamento com duração definida para a hepatite B crônica, algo que os antivirais atuais quase nunca permitem. Mesmo assim, cerca de 4 em cada 5 pacientes tratados não atingem a cura funcional, e pessoas com cirrose ficaram de fora dos estudos. A aprovação vale para os Estados Unidos; para ser vendido no Brasil, o remédio precisaria de registro na Agência Nacional de Vigilância Sanitária (Anvisa).",
+      "pergunta": {
+        "enunciado": "O que significa “cura funcional” da hepatite B nos estudos do bepirovirseno?",
+        "opcoes": [
+          "Eliminação completa do DNA do vírus guardado no núcleo das células do fígado",
+          "Perda do HBsAg e DNA viral indetectável sustentados depois do fim do tratamento",
+          "Normalização das transaminases enquanto o paciente usa o remédio",
+          "Surgimento de anticorpos anti-HBs depois de uma dose de vacina"
+        ],
+        "correta": 2,
+        "explicacao": "A cura funcional é a perda sustentada do HBsAg com DNA viral indetectável sem tratamento. Ela não elimina o DNA do vírus guardado no núcleo dos hepatócitos, por isso não é uma cura completa."
+      }
+    },
+    {
+      "id": "2026-10-jama-airoplane-oxigenio-prematuros",
+      "titulo": "Oxigênio a 30% ou ar ambiente na reanimação de prematuros de 32 a 35 semanas: o estudo AIROPLANE",
+      "tipo": "Artigo",
+      "area": "Pediatria",
+      "dataPublicacao": "2026-10-20",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "JAMA (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42714881/"
+      },
+      "resumo": "Quando um recém-nascido precisa de ajuda para respirar logo depois do parto, a equipe começa a ventilação com uma certa fração inspirada de oxigênio (FiO2). Para bebês a termo, as recomendações internacionais orientam começar com ar ambiente, que tem 21% de oxigênio (FiO2 de 0,21). Para prematuros moderados e tardios, nascidos entre 32 e 35 semanas, não se sabia qual era a melhor concentração para começar.\n\nO estudo AIROPLANE, publicado no JAMA (Journal of the American Medical Association), testou essa pergunta em 26 maternidades da Austrália. Cada hospital foi sorteado para começar a reanimação com 30% ou com 21% de oxigênio e, na metade do estudo, passou a usar a outra estratégia. Foram incluídos 1.818 recém-nascidos.\n\nNão houve diferença no desfecho principal: cerca de 73% dos bebês ainda precisavam de suporte respiratório ao sair da sala de parto, nos dois grupos. Mas os que começaram com 30% de oxigênio precisaram com menos frequência de níveis mais altos de suporte na sala de parto e foram menos intubados depois dela (6,4% contra 9,3%).",
+      "naPratica": "Como o desfecho principal não mudou, o estudo sozinho não justifica trocar os protocolos de reanimação neonatal. Os resultados secundários, porém, sugerem que começar com 30% de oxigênio nesses prematuros pode reduzir intervenções mais invasivas, e devem pesar nas próximas revisões das diretrizes.",
+      "pergunta": {
+        "enunciado": "Qual foi o resultado principal do estudo AIROPLANE?",
+        "opcoes": [
+          "Começar com 30% de oxigênio reduziu pela metade a necessidade de suporte respiratório",
+          "Começar com ar ambiente reduziu a mortalidade dos prematuros",
+          "O estudo foi interrompido por excesso de hiperóxia no grupo de 30%",
+          "Não houve diferença na proporção de bebês que saíram da sala de parto com suporte respiratório"
+        ],
+        "correta": 4,
+        "explicacao": "O desfecho principal foi igual nos dois grupos (cerca de 73%). As diferenças apareceram em desfechos secundários, como menos intubação depois da sala de parto no grupo de 30%."
+      }
+    },
+    {
+      "id": "2026-10-sus-nove-medicamentos-oncologicos",
+      "titulo": "SUS começa a oferecer nove medicamentos de alta tecnologia contra o câncer",
+      "tipo": "Medicamento",
+      "area": "Oncologia",
+      "dataPublicacao": "2026-10-20",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "Ministério da Saúde",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/ministerio-da-saude-inicia-oferta-no-sus-de-nove-medicamentos-oncologicos-de-alta-tecnologia-em-todas-as-regioes-do-pais"
+      },
+      "resumo": "O Ministério da Saúde começou a oferecer no Sistema Único de Saúde (SUS) nove medicamentos oncológicos de alta tecnologia, que somam 13 indicações de tratamento e podem beneficiar mais de 116 mil pessoas. A oferta começa em 20 centros de tratamento de câncer, em 16 estados e no Distrito Federal, e deve chegar aos demais centros até o fim do ano.\n\nA lista inclui o abemaciclibe, para câncer de mama com receptor hormonal positivo e HER2 (receptor tipo 2 do fator de crescimento epidérmico humano) negativo; a abiraterona, para câncer de próstata; o gefitinibe, para câncer de pulmão de não pequenas células, em primeira linha; o rituximabe, para leucemia linfocítica crônica e linfomas; o pazopanibe e o sunitinibe, para carcinoma renal de células claras metastático, sendo o sunitinibe também indicado para o tumor estromal gastrointestinal (GIST) após falha do imatinibe; o trastuzumabe, para câncer de estômago ou da junção gastroesofágica; a lanreotida, para tumores neuroendócrinos; e o hormônio tireoestimulante (TSH) recombinante, para câncer diferenciado de tireoide com indicação de iodo radioativo.\n\nSegundo o ministério, a medida faz parte de um plano de incluir 23 novos medicamentos oncológicos até o fim de 2026, com impacto estimado de R$ 4 bilhões por ano.",
+      "naPratica": "Remédios que podem custar centenas de milhares de reais na rede privada, como o abemaciclibe, passam a ser oferecidos pelo SUS, começando por 20 centros. É também um bom exemplo de que incorporar uma tecnologia ao SUS é só o primeiro passo: depois é preciso comprar, distribuir e organizar a rede para o remédio chegar ao paciente.",
+      "pergunta": {
+        "enunciado": "Qual destes medicamentos passou a ser oferecido pelo SUS para o câncer de próstata?",
+        "opcoes": [
+          "Abiraterona",
+          "Gefitinibe",
+          "Lanreotida",
+          "Pazopanibe"
+        ],
+        "correta": 1,
+        "explicacao": "A abiraterona é indicada para câncer de próstata. O gefitinibe é para câncer de pulmão, a lanreotida para tumores neuroendócrinos e o pazopanibe para carcinoma renal."
+      }
+    },
+    {
+      "id": "2026-10-lancet-oncol-tosyma-tomossintese",
+      "titulo": "Mamografia 3D reduz cânceres de intervalo? O que mostrou o estudo TOSYMA",
+      "tipo": "Artigo",
+      "area": "Oncologia",
+      "dataPublicacao": "2026-10-09",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "The Lancet Oncology (via PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42854706/"
+      },
+      "resumo": "A tomossíntese mamária digital, conhecida como “mamografia 3D”, obtém imagens da mama em várias camadas finas. Já se sabia que ela detecta mais cânceres no rastreamento do que a mamografia digital comum. A dúvida era se isso traz benefício real ou só aumenta o número de diagnósticos.\n\nO estudo TOSYMA, feito na Alemanha e publicado na The Lancet Oncology, sorteou quase 100 mil mulheres de 50 a 70 anos para fazer o rastreamento com tomossíntese (com uma imagem 2D sintetizada) ou com mamografia digital. Depois, os pesquisadores contaram os “cânceres de intervalo”: tumores invasivos diagnosticados nos 24 meses seguintes a um exame considerado normal. Eles indicam cânceres que o exame pode ter deixado passar.\n\nEm dois anos, foram 14,2 casos por 10 mil mulheres no grupo da tomossíntese e 18,6 por 10 mil no grupo da mamografia. É uma redução de cerca de um quarto, mas que não atingiu significância estatística, que era o objetivo principal. Nos primeiros 12 meses, a diferença foi significativa: 4,5 contra 6,3 casos por 10 mil mulheres.",
+      "naPratica": "O estudo reforça a tomossíntese como opção para o rastreamento do câncer de mama, mas ainda não prova que ela reduz a mortalidade, e o exame é mais caro e menos disponível que a mamografia. Para a prova, guarde o conceito de câncer de intervalo, uma medida importante da qualidade de um programa de rastreamento.",
+      "pergunta": {
+        "enunciado": "No estudo TOSYMA, o que é um “câncer de intervalo”?",
+        "opcoes": [
+          "Um tumor encontrado ao repetir a mamografia no mesmo dia",
+          "Um carcinoma in situ visto apenas na tomossíntese",
+          "Um câncer detectado na rodada seguinte de rastreamento",
+          "Um câncer invasivo diagnosticado no período após um rastreamento com resultado normal"
+        ],
+        "correta": 4,
+        "explicacao": "Câncer de intervalo é o que aparece entre um exame de rastreamento normal e o próximo. Quanto menos casos assim, menos tumores o exame deixou passar."
+      }
+    },
+    {
+      "id": "2026-10-sbc-diretriz-insuficiencia-cardiaca",
+      "titulo": "Nova Diretriz Brasileira de Insuficiência Cardíaca acaba com a categoria de fração de ejeção “levemente reduzida”",
+      "tipo": "Diretriz",
+      "area": "Cardiologia",
+      "dataPublicacao": "2026-10-07",
+      "adicionadoEm": "2026-10-24",
+      "fonte": {
+        "nome": "Arquivos Brasileiros de Cardiologia (SBC)",
+        "url": "https://abccardiol.org/en/article/brazilian-guideline-for-heart-failure-2026/"
+      },
+      "resumo": "A Sociedade Brasileira de Cardiologia (SBC) publicou nos Arquivos Brasileiros de Cardiologia a Diretriz Brasileira de Insuficiência Cardíaca 2026, feita pelo seu Departamento de Insuficiência Cardíaca. O documento substitui a diretriz de 2018 e foi apresentado no 81º Congresso Brasileiro de Cardiologia, no Rio de Janeiro.\n\nA mudança que mais chama atenção está na classificação pela fração de ejeção do ventrículo esquerdo (FEVE). A categoria intermediária, de 41% a 49%, chamada de insuficiência cardíaca (IC) com fração de ejeção levemente reduzida, foi excluída. Agora, a IC com fração de ejeção reduzida (ICFEr) inclui todos os pacientes com FEVE abaixo de 50%, e a IC com fração de ejeção preservada (ICFEp), os que têm 50% ou mais. O motivo é que o grupo intermediário se parece com o de fração reduzida e responde ao tratamento de forma semelhante. Continua existindo a IC com fração de ejeção melhorada, para quem recupera a função com o tratamento.\n\nA diretriz também adota o sistema GRADE, que classifica as recomendações em fortes ou fracas, a favor ou contra, conforme a certeza das evidências. No ambulatório, um peptídeo natriurético tipo B (BNP) abaixo de 35 pg/mL ou um NT-proBNP (fração N-terminal do pró-BNP) abaixo de 125 pg/mL torna a IC improvável.",
+      "naPratica": "Pacientes com FEVE entre 41% e 49% passam a ser classificados como ICFEr, o que os coloca no caminho das quatro classes da terapia medicamentosa fundamental: inibidor da enzima conversora de angiotensina (IECA), bloqueador do receptor de angiotensina (BRA) ou sacubitril-valsartana; betabloqueador; antagonista mineralocorticoide; e inibidor do cotransportador de sódio-glicose tipo 2 (iSGLT2). Vale atualizar seus resumos: os cortes de FEVE e de peptídeos natriuréticos costumam cair em prova.",
+      "pergunta": {
+        "enunciado": "Pela Diretriz Brasileira de Insuficiência Cardíaca 2026, como se classifica um paciente com IC e FEVE de 45%, sem história de FEVE mais baixa?",
+        "opcoes": [
+          "IC com fração de ejeção preservada",
+          "IC com fração de ejeção levemente reduzida",
+          "IC com fração de ejeção reduzida",
+          "IC com fração de ejeção melhorada"
+        ],
+        "correta": 3,
+        "explicacao": "A nova diretriz excluiu a categoria “levemente reduzida”. Toda FEVE abaixo de 50% passa a ser IC com fração de ejeção reduzida."
+      }
+    }
+  ]
+}

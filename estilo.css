@@ -1,0 +1,285 @@
+/* =========================================================
+   VISUAL DO INCIDENTALOMA
+   As cores ficam aqui no topo. As do modo escuro ficam logo abaixo.
+   ========================================================= */
+
+:root {
+  --papel: #F6F5F1;        /* fundo, cor de papel de revista */
+  --cartao: #FFFFFF;
+  --tinta: #14213A;        /* texto principal, azul-marinho */
+  --suave: #5B6577;        /* texto secundário */
+  --linha: #DADBDF;
+  --destaque: #A8232C;     /* vermelho de revista científica */
+  --destaque-fundo: #F7E7E6;
+  --pratica-fundo: #EAF0F7;
+  --certo: #1E7048;
+  --certo-fundo: #E3F2EA;
+  --errado: #A8232C;
+  --errado-fundo: #F7E7E6;
+  --sombra: 0 1px 2px rgba(20, 33, 58, .06), 0 4px 14px rgba(20, 33, 58, .05);
+
+  --serifa: "Newsreader", Georgia, "Times New Roman", serif;
+  --sem-serifa: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papel: #0E1520;
+    --cartao: #162030;
+    --tinta: #E6E9EF;
+    --suave: #9CA6B8;
+    --linha: #2A3547;
+    --destaque: #EF6F72;
+    --destaque-fundo: #3A1E25;
+    --pratica-fundo: #1C2A3F;
+    --certo: #5CCB94;
+    --certo-fundo: #173327;
+    --errado: #EF6F72;
+    --errado-fundo: #3A1E25;
+    --sombra: none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--serifa);
+  font-size: 19px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+svg { width: 1.2em; height: 1.2em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+
+.tela {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: calc(18px + env(safe-area-inset-top)) 18px calc(110px + env(safe-area-inset-bottom));
+  outline: none;
+  animation: entrar .35s ease-out;
+}
+
+@keyframes entrar { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) { .tela { animation: none; } }
+
+/* ---------- Cabeçalho da revista (tela Hoje) ---------- */
+
+.cabeca { text-align: center; padding-bottom: 14px; margin-bottom: 26px; border-bottom: 3px double var(--tinta); }
+
+.linha-topo {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  font: 500 13px/1.3 var(--sem-serifa); color: var(--suave);
+  padding-bottom: 12px; border-bottom: 1px solid var(--linha);
+}
+
+.sequencia { display: inline-flex; align-items: center; gap: 5px; color: var(--destaque); font-weight: 600; text-transform: none; white-space: nowrap; }
+
+.titulo-revista {
+  margin: 16px 0 2px;
+  font: 600 clamp(38px, 11vw, 56px)/1 var(--serifa);
+  letter-spacing: -.02em;
+}
+
+.lema { margin: 4px 0 8px; font-style: italic; color: var(--suave); font-size: 17px; }
+
+.edicao { margin: 0; font: 500 12px/1.4 var(--sem-serifa); letter-spacing: .12em; text-transform: uppercase; color: var(--suave); }
+
+/* ---------- Rótulos e títulos ---------- */
+
+.secao-rotulo {
+  display: flex; align-items: center; gap: 10px;
+  margin: 34px 0 12px;
+  font: 600 12px/1 var(--sem-serifa); letter-spacing: .14em; text-transform: uppercase; color: var(--destaque);
+}
+.secao-rotulo::after { content: ""; flex: 1; height: 1px; background: var(--linha); }
+.secao-rotulo:first-of-type { margin-top: 0; }
+
+.chapeu {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px;
+  margin: 0 0 8px;
+  font: 600 12px/1.3 var(--sem-serifa); letter-spacing: .08em; text-transform: uppercase; color: var(--suave);
+}
+.chapeu .tipo { color: var(--destaque); }
+
+.selo {
+  display: inline-block; padding: 3px 8px; border-radius: 99px;
+  background: var(--destaque); color: var(--papel);
+  font: 600 11px/1.2 var(--sem-serifa); letter-spacing: .08em; text-transform: uppercase;
+}
+
+h1, h2, h3 { font-family: var(--serifa); font-weight: 600; line-height: 1.18; letter-spacing: -.01em; margin: 0 0 10px; }
+.materia h1, .materia h2 { font-size: clamp(26px, 6.6vw, 32px); }
+
+.meta { margin: 0 0 16px; font: 400 14px/1.45 var(--sem-serifa); color: var(--suave); }
+
+.cabecalho-pagina { margin-bottom: 22px; padding-bottom: 14px; border-bottom: 3px double var(--tinta); }
+.cabecalho-pagina h1 { font-size: clamp(32px, 9vw, 42px); }
+.cabecalho-pagina p:not(.chapeu) { margin: 0; color: var(--suave); }
+
+/* ---------- Matéria (novidade ou fato) ---------- */
+
+.materia {
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 14px;
+  padding: 22px 20px;
+  box-shadow: var(--sombra);
+}
+
+.texto p { margin: 0 0 1em; }
+
+.pratica {
+  margin: 4px 0 18px; padding: 14px 16px;
+  background: var(--pratica-fundo);
+  border-left: 4px solid var(--tinta);
+  border-radius: 0 10px 10px 0;
+}
+.pratica p { margin: 0 0 .6em; }
+.pratica p:last-child { margin-bottom: 0; }
+
+.rotulo { margin: 0 0 6px; font: 600 12px/1.3 var(--sem-serifa); letter-spacing: .1em; text-transform: uppercase; color: var(--suave); }
+.pratica .rotulo { color: var(--tinta); }
+
+/* ---------- Botões ---------- */
+
+.botao {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 52px; padding: 12px 20px;
+  border-radius: 12px; border: 1.5px solid var(--tinta);
+  background: transparent; color: var(--tinta);
+  font: 500 16px/1.2 var(--sem-serifa); text-decoration: none; cursor: pointer;
+}
+.botao.cheio { background: var(--tinta); color: var(--papel); }
+.botao.largo { width: 100%; }
+.botao:active { transform: scale(.98); }
+
+/* ---------- Pergunta de múltipla escolha ---------- */
+
+.pergunta { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--linha); }
+.enunciado { margin: 0 0 12px; font-weight: 600; }
+
+.opcoes { display: grid; gap: 10px; }
+
+.opcao {
+  width: 100%; min-height: 54px; padding: 13px 16px;
+  text-align: left; cursor: pointer;
+  border: 1.5px solid var(--linha); border-radius: 12px;
+  background: var(--papel); color: var(--tinta);
+  font: 400 16px/1.4 var(--sem-serifa);
+}
+.opcao:not(:disabled):hover { border-color: var(--tinta); }
+.opcao.certa { border-color: var(--certo); background: var(--certo-fundo); color: var(--certo); font-weight: 600; }
+.opcao.errada { border-color: var(--errado); background: var(--errado-fundo); color: var(--errado); }
+.opcao.apagada { opacity: .5; }
+.opcao:disabled { cursor: default; }
+
+.resultado { margin-top: 14px; font-size: 17px; }
+.resultado p { margin: 0 0 .6em; }
+.veredito { font: 600 16px/1.4 var(--sem-serifa); }
+.veredito.sim { color: var(--certo); }
+.veredito.nao { color: var(--errado); }
+
+/* ---------- Lista de novidades e filtros ---------- */
+
+.filtros {
+  display: flex; gap: 8px; overflow-x: auto;
+  margin: 0 -18px 18px; padding: 2px 18px 8px;
+  scrollbar-width: none;
+}
+.filtros::-webkit-scrollbar { display: none; }
+
+.filtro {
+  flex: none; display: inline-flex; align-items: center;
+  min-height: 42px; padding: 8px 16px;
+  border-radius: 99px; border: 1.5px solid var(--linha);
+  font: 500 15px/1 var(--sem-serifa); text-decoration: none; white-space: nowrap;
+  color: var(--suave); background: var(--cartao);
+}
+.filtro[aria-current] { background: var(--tinta); border-color: var(--tinta); color: var(--papel); }
+
+.cartao-lista {
+  display: block; text-decoration: none;
+  padding: 18px 18px 16px; margin-bottom: 12px;
+  background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px;
+  box-shadow: var(--sombra);
+}
+.cartao-lista h2 { font-size: 21px; margin-bottom: 6px; }
+.cartao-lista p { margin: 0; font: 400 14px/1.45 var(--sem-serifa); color: var(--suave); }
+
+/* ---------- Arquivo ---------- */
+
+.numeros { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 26px; }
+.numero { padding: 14px 16px; background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; }
+.numero b { display: block; font: 600 30px/1.1 var(--serifa); }
+.numero span { font: 400 13px/1.3 var(--sem-serifa); color: var(--suave); }
+.numero.grande { grid-column: 1 / -1; border-color: var(--destaque); }
+.numero.grande b { color: var(--destaque); font-size: 40px; }
+
+.grupo { margin-bottom: 24px; }
+.grupo h2 { font-size: 22px; padding-bottom: 8px; border-bottom: 1px solid var(--linha); }
+
+.item {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  min-height: 60px; padding: 12px 2px;
+  text-decoration: none; border-bottom: 1px solid var(--linha);
+}
+.item strong { display: block; font-weight: 600; font-size: 17px; line-height: 1.3; }
+.item span { font: 400 13px/1.4 var(--sem-serifa); color: var(--suave); }
+.item svg { color: var(--suave); }
+
+.secao { margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--linha); }
+.secao h2 { font-size: 22px; }
+.secao p, .secao li { font-size: 17px; }
+
+/* ---------- Revisão ---------- */
+
+.placar {
+  position: sticky; top: calc(8px + env(safe-area-inset-top)); z-index: 2;
+  margin: 0 0 8px; padding: 10px 14px;
+  background: var(--tinta); color: var(--papel); border-radius: 10px;
+  font: 600 15px/1.3 var(--sem-serifa); text-align: center;
+}
+
+.revisao-item { padding: 18px 20px; margin-bottom: 12px; background: var(--cartao); border: 1px solid var(--linha); border-radius: 14px; }
+.revisao-item .pergunta { margin-top: 0; padding-top: 0; border-top: 0; }
+
+/* ---------- Outros ---------- */
+
+.voltar {
+  display: inline-flex; align-items: center; gap: 4px;
+  min-height: 44px; margin-bottom: 10px;
+  font: 500 15px/1 var(--sem-serifa); text-decoration: none; color: var(--suave);
+}
+
+.vazio { padding: 24px 4px; color: var(--suave); text-align: center; font-style: italic; }
+
+.rodape-info { margin-top: 26px; text-align: center; font: 400 13px/1.5 var(--sem-serifa); color: var(--suave); }
+
+/* ---------- Barra de navegação embaixo ---------- */
+
+.barra {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--papel) 92%, transparent);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  border-top: 1px solid var(--linha);
+}
+.barra a {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+  min-height: 58px; border-radius: 12px;
+  font: 500 12px/1 var(--sem-serifa); text-decoration: none; color: var(--suave);
+}
+.barra a svg { width: 26px; height: 26px; }
+.barra a[aria-current] { color: var(--destaque); }
+.barra a[aria-current] svg { stroke-width: 2.2; }

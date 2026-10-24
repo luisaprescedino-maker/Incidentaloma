@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Incidentaloma</title>
+  <meta name="description" content="Achados que você não estava procurando: novidades de medicina com fonte e fatos curiosos, em poucos minutos por dia.">
+
+  <!-- Cores da barra do celular (clara e escura) -->
+  <meta name="theme-color" content="#F6F5F1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1520" media="(prefers-color-scheme: dark)">
+
+  <!-- Para funcionar como app no iPhone -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Incidentaloma">
+  <link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+
+  <!-- Fontes (ficam guardadas no aparelho depois do primeiro uso) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap">
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main id="tela" class="tela" tabindex="-1"><p class="vazio">Carregando…</p></main>
+
+  <nav class="barra" aria-label="Navegação principal">
+    <a href="#hoje" data-aba="hoje">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg>
+      <span>Hoje</span>
+    </a>
+    <a href="#novidades" data-aba="novidades">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a1 1 0 0 1 1 1v14a1 1 0 0 0 1 1H6a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1zM17 9h2a1 1 0 0 1 1 1v8a2 2 0 0 1-2 2M8 8h5M8 12h5M8 16h3"/></svg>
+      <span>Novidades</span>
+    </a>
+    <a href="#revisao" data-aba="revisao">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4h6v3H9zM9 5.5H6a1 1 0 0 0-1 1V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V6.5a1 1 0 0 0-1-1h-3M8.5 13.5l2.5 2.5 4.5-5"/></svg>
+      <span>Revisão</span>
+    </a>
+    <a href="#arquivo" data-aba="arquivo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zM3 4h18v3H3zM10 11h4"/></svg>
+      <span>Arquivo</span>
+    </a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

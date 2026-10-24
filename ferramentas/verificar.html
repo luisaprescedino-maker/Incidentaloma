@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verificador do Incidentaloma</title>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; max-width: 760px; margin: 24px auto; padding: 0 16px; background: #F6F5F1; color: #14213A; }
+    .ok { color: #1E7048; font-weight: 600; } .erro { color: #A8232C; } .aviso { color: #8A5A00; }
+    li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Verificador dos dados</h1>
+  <p>Confere se <code>dados/novidades.json</code> e <code>dados/fatos.json</code> estão corretos.</p>
+  <div id="resultado">Verificando…</div>
+  <script src="verificar.js"></script>
+  <script>
+    (async () => {
+      const el = document.getElementById("resultado");
+      const ler = async nome => {
+        const texto = await (await fetch("../dados/" + nome, { cache: "no-cache" })).text();
+        try { return JSON.parse(texto); }
+        catch (e) { throw new Error(`dados/${nome} não é um JSON válido: ${e.message}`); }
+      };
+      try {
+        const [n, f] = await Promise.all([ler("novidades.json"), ler("fatos.json")]);
+        const { erros, avisos } = verificarDados(n, f);
+        const li = (cls, t) => `<li class="${cls}">${t.replace(/</g, "&lt;")}</li>`;
+        el.innerHTML = `<ul>${erros.map(e => li("erro", "ERRO: " + e)).join("")}${avisos.map(a => li("aviso", "AVISO: " + a)).join("")}</ul>` +
+          (erros.length ? `<p class="erro"><b>${erros.length} erro(s).</b> Corrija antes de publicar.</p>`
+                        : `<p class="ok">Tudo certo: ${n.novidades.length} novidades e ${f.fatos.length} fatos válidos.</p>`);
+      } catch (e) {
+        el.innerHTML = `<p class="erro">ERRO: ${String(e.message).replace(/</g, "&lt;")}</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
