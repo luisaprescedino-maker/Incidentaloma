@@ -8,7 +8,7 @@ O Incidentaloma é um aplicativo web instalável (PWA) para celular, feito para 
 
 O site é publicado pelo **GitHub Pages** a partir do ramo `main`. Você envia a atualização para um ramo `claude/...`, e uma automação do GitHub (`.github/workflows/publicar-atualizacao.yml`) confere, junta ao `main` e republica o site sozinha (veja o passo 9).
 
-Seu trabalho toda semana: **pesquisar o que saiu nos últimos 7 dias, adicionar de 5 a 7 novidades novas e verdadeiras, conferir, registrar e publicar.**
+Seu trabalho toda semana: **pesquisar novidades médicas recentes (com prioridade para o que saiu nos últimos 7 dias), adicionar de 5 a 7 novidades novas e verdadeiras, conferir, registrar e publicar.**
 
 ## Como o projeto está organizado
 
@@ -51,9 +51,15 @@ O app lê `dados/novidades.json` e calcula o resto sozinho:
 3. Leia `HISTORICO-DE-ATUALIZACOES.md` para saber quando foi a última atualização e o que já foi adicionado.
 4. Leia `dados/novidades.json` e anote os `id`, `titulo` e `fonte.url` existentes, para **não repetir** nenhuma novidade nem o mesmo assunto.
 
-### 2. Pesquisar o que saiu nos últimos 7 dias
+### 2. Pesquisar novidades recentes
 
-Procure publicações com data entre **HOJE − 7 dias** e **HOJE**. Se a última atualização foi há mais de 7 dias, o período vai da data da última atualização até HOJE. Use WebSearch (prefira o modo "standard"; use "extended" quando os resultados vierem fracos ou desatualizados) e confira tudo com WebFetch. Se houver ferramentas de PubMed disponíveis, elas ajudam a achar artigos.
+As novidades não precisam ser todas da semana, mas precisam ser **atualizações recentes** que ainda não estão no app. Use esta ordem de prioridade:
+
+1. **Da semana (prioridade):** publicações com data entre **HOJE − 7 dias** e **HOJE**. Se a última atualização foi há mais de 7 dias, conte a partir da data da última atualização.
+2. **Recentes:** publicações dos **últimos 3 meses** que ainda não entraram no app e continuam relevantes (um ensaio clínico muito comentado, uma aprovação de medicamento importante, uma decisão do SUS).
+3. **Diretrizes em vigor:** diretrizes e protocolos brasileiros ou internacionais importantes publicados nos **últimos 12 meses**, desde que sejam a versão mais atual (não uma diretriz que já foi substituída) e ainda não estejam no app.
+
+Procure sempre primeiro o que é da semana. Use os itens 2 e 3 para completar as 5 a 7 novidades, ou quando forem mais úteis para uma estudante do 3º ano do que algo da semana. Em todos os casos, a data de publicação tem que estar visível na fonte e o assunto não pode repetir o que já existe no app. Use WebSearch (prefira o modo "standard"; use "extended" quando os resultados vierem fracos ou desatualizados) e confira tudo com WebFetch. Se houver ferramentas de PubMed disponíveis, elas ajudam a achar artigos.
 
 Faça buscas nestes três grupos:
 
@@ -87,7 +93,8 @@ Faça buscas nestes três grupos:
 Para **cada** novidade escolhida, abra o link final com WebFetch e confirme:
 1. a página abre e não é um erro, um paywall vazio ou um redirecionamento para outra coisa;
 2. o conteúdo é exatamente o que você vai resumir;
-3. a data de publicação está na página e cai no período pesquisado.
+3. a data de publicação está na página e respeita os limites do passo 2;
+4. no caso de diretriz, é a versão mais atual (não foi substituída por outra mais nova).
 
 Se qualquer item falhar, troque a fonte por outra oficial ou descarte a novidade.
 
@@ -159,7 +166,7 @@ No topo de `HISTORICO-DE-ATUALIZACOES.md`, logo abaixo da explicação inicial, 
 ```markdown
 ## AAAA-MM-DD: N novidades
 
-Período pesquisado: AAAA-MM-DD a AAAA-MM-DD.
+Período da semana: AAAA-MM-DD a AAAA-MM-DD. Itens mais antigos incluídos: quais e por quê (ou "nenhum").
 
 | Novidade | Tipo | Área | Publicação | Fonte |
 |---|---|---|---|---|
@@ -192,5 +199,5 @@ Termine com um resumo curto: quantas novidades entraram (título e área de cada
 - Não invente nada (veja a regra mais importante).
 - Não mude `app.js`, `index.html`, `estilo.css`, `sw.js` nem os nomes dos campos do JSON.
 - Não apague novidades antigas nem entradas do histórico.
-- Não adicione novidades com mais de 7 dias além do período (salvo se a última atualização foi há mais tempo, como explicado no passo 2).
+- Não adicione novidades fora dos limites do passo 2: mais de 3 meses para artigos, medicamentos e decisões, ou mais de 12 meses para diretrizes. Nunca adicione uma diretriz que já foi substituída por uma versão mais nova.
 - Não copie trechos longos das fontes: escreva o resumo com suas palavras.
